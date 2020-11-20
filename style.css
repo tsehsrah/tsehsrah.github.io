@@ -1,0 +1,157 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+header{
+display: flex;
+width: 95%;
+margin:auto;
+height:20vh;
+align-items:center;
+
+}
+.logo{
+display: flex;
+flex:1;
+font-weight:400;
+margin 15px;
+
+
+}
+.logo h1{
+font-size: 48 px;
+font-weight:500;
+background:linear-gradient(to right, #cccccc, #999999);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+ filter:drop-shadow(0px 3px 1px black);
+}
+nav{
+display: flex;
+
+}
+.lnks{
+color: #5f5f5f;
+font-size: 20 px;
+width :300px;
+text-decoration:none;
+background:linear-gradient(to right, #666666, #444444);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display:flex;
+flex-direction:row;
+list-style:none;
+justify-content: space-around;
+
+
+}
+
+.lnk{
+justify-content: flex-end;
+color: #ffffff;
+font-size: 20 px;
+text-decoration:none;
+}
+
+.intrdctn{
+display:flex;
+width: 90%;
+margin:auto;
+align-items:center;
+flex:1;
+
+
+}
+
+.cntnt{
+font-size:24px;
+font-weight:500;
+text-align:center;
+ animation: iappr 1.7s ease;
+}
+.prsnt{
+flex-direction:column;
+width:40vh;
+text-align:center;
+}
+.prsnt h1{
+background:linear-gradient(to right, #cccccc, #999999);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.cntnt h1{
+background:linear-gradient(to right, #cccccc, #999999);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.cntnt p{
+background:linear-gradient(to right, #bbbbbb, #888888);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.cvr{
+flex:1;
+ animation: appr 1.7s ease;
+}
+
+.cvr img{
+ height:40vh;
+ width:40vh;
+ filter:drop-shadow(0px 5px 3px black);
+
+}
+.bdy{
+
+background:linear-gradient(to right, #444444, #151515);
+}
+.cntct p{
+padding: 50px 50px 50px 50px;
+background:linear-gradient(to right, #666666, #aaaaaa);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align:center;
+}
+.cntct {
+align-items:center;
+}
+@keyframes appr{
+0%{
+opacity 0;
+transform: translateX(120px)
+
+}
+100%{
+opacity 1;
+transform: translateX(0px)
+
+}
+}
+@keyframes iappr{
+0%{
+opacity 0;
+transform: translateX(-120px)
+
+}
+100%{
+opacity 1;
+transform: translateX(0px)
+
+}
+}
+
+@media screen and (max-width: 1024px){
+
+.intrdctn{
+	flex-direction: column;
+}
+
+
+}
+
+
+
+
+
